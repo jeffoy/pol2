@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i);
 
 
 
@@ -27,7 +28,7 @@ body {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
@@ -48,7 +49,7 @@ body {
   font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1rem;
 }
 .display-7 > .mbr-iconfont {
@@ -141,7 +142,7 @@ body {
   background-color: #879a9f !important;
 }
 .bg-danger {
-  background-color: #b1a374 !important;
+  background-color: #f9f295 !important;
 }
 .btn-primary,
 .btn-primary:active {
@@ -245,8 +246,8 @@ body {
 }
 .btn-danger,
 .btn-danger:active {
-  background-color: #b1a374;
-  border-color: #b1a374;
+  background-color: #f9f295;
+  border-color: #f9f295;
   color: #ffffff;
 }
 .btn-danger:hover,
@@ -254,14 +255,14 @@ body {
 .btn-danger.focus,
 .btn-danger.active {
   color: #ffffff;
-  background-color: #8b7d4e;
-  border-color: #8b7d4e;
+  background-color: #f5e94d;
+  border-color: #f5e94d;
 }
 .btn-danger.disabled,
 .btn-danger:disabled {
   color: #ffffff !important;
-  background-color: #8b7d4e !important;
-  border-color: #8b7d4e !important;
+  background-color: #f5e94d !important;
+  border-color: #f5e94d !important;
 }
 .btn-white {
   color: #333333 !important;
@@ -409,22 +410,22 @@ body {
 .btn-danger-outline,
 .btn-danger-outline:active {
   background: none;
-  border-color: #7a6e45;
-  color: #7a6e45;
+  border-color: #f4e634;
+  color: #f4e634;
 }
 .btn-danger-outline:hover,
 .btn-danger-outline:focus,
 .btn-danger-outline.focus,
 .btn-danger-outline.active {
   color: #ffffff;
-  background-color: #b1a374;
-  border-color: #b1a374;
+  background-color: #f9f295;
+  border-color: #f9f295;
 }
 .btn-danger-outline.disabled,
 .btn-danger-outline:disabled {
   color: #ffffff !important;
-  background-color: #b1a374 !important;
-  border-color: #b1a374 !important;
+  background-color: #f9f295 !important;
+  border-color: #f9f295 !important;
 }
 .btn-black-outline,
 .btn-black-outline:active {
@@ -476,7 +477,7 @@ body {
   color: #879a9f !important;
 }
 .text-danger {
-  color: #b1a374 !important;
+  color: #f9f295 !important;
 }
 .text-white {
   color: #ffffff !important;
@@ -506,7 +507,7 @@ a.text-warning:focus {
 }
 a.text-danger:hover,
 a.text-danger:focus {
-  color: #7a6e45 !important;
+  color: #f4e634 !important;
 }
 a.text-white:hover,
 a.text-white:focus {
@@ -526,7 +527,7 @@ a.text-black:focus {
   background-color: #879a9f;
 }
 .alert-danger {
-  background-color: #b1a374;
+  background-color: #f9f295;
 }
 .mbr-section-btn a.btn:not(.btn-form) {
   border-radius: 100px;
@@ -576,7 +577,7 @@ a:hover {
 }
 .mbr-plan-header.bg-danger .mbr-plan-subtitle,
 .mbr-plan-header.bg-danger .mbr-plan-price-desc {
-  color: #dfd9c6;
+  color: #ffffff;
 }
 /* Scroll to top button*/
 .scrollToTop_wraper {
@@ -621,7 +622,7 @@ a:hover {
   background-color: #f5f5f5;
   box-shadow: none;
   color: #565656;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1rem;
   line-height: 1.43;
   min-height: 3.5em;
@@ -1564,6 +1565,10 @@ body {
 .cid-qAT4kQGRj7 .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-qAT4kQGRj7 .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-qAT4kQGRj7 .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-qAT4kQGRj7 .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-qAT4kQGRj7 .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1658,6 +1663,10 @@ body {
   .cid-qAT4kQGRj7 .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
   }
+  .cid-qAT4kQGRj7 .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-qAT4kQGRj7 .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
+  }
   .cid-qAT4kQGRj7 .navbar-collapse.collapsing .navbar-buttons,
   .cid-qAT4kQGRj7 .navbar-collapse.show .navbar-buttons {
     text-align: center;
@@ -1734,7 +1743,7 @@ body {
   }
 }
 .cid-qAT5knI5vH {
-  padding-top: 90px;
+  padding-top: 105px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
